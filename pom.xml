@@ -18,6 +18,14 @@
     <version>6.14.3</version>
     <scope>test</scope>
 </dependency>
+    
+    <build>
+      <resources>
+        <resource>
+          <directory>src/test/java</directory>
+        </resource>
+      </resources>
+    </build>
 
 
     </dependencies>
