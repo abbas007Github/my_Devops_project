@@ -24,6 +24,7 @@ public class Php_Test {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		WebElement link = driver.findElement(By.linkText("About Us"));
+		link.isClicked();
 		System.out.println(link.isDisplayed());
 		Assert.assertTrue(link.isDisplayed(), "link is not displayed");
 	}
