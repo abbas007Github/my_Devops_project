@@ -22,7 +22,6 @@ public class Php_Test {
 		driver.get("http://192.168.56.102:8090/website/");
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		/
 		WebElement link = driver.findElement(By.linkText("About Us"));
 		link.isClicked().Error.Error();
 		System.out.println(link.isDisplayed());
